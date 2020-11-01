@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Paper Rock Scissors {{title}}</title>
+    
+    
+</head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+    
+    <section id="game">
+        <div id="rock">
+            <a href="/game_start/paper/rock"><img src="static/images/rock.png" alt="rock"></a>
+            <h3>ROCK</h3>
+        </div>
+        <div id="paper">
+            <a href="/game_start/paper/paper"><img src="static/images/paper.png" alt="paper"></a>
+            <h3>PAPER</h3>
+        </div>
+        <div id="scissors">
+            <a href="/game_start/paper/scissors"><img src="static/images/scissors.png" alt="scissors"></a>
+            <h3>SCISSORS</h3>
+        </div>
+
+    </section>
+
+        <h2>Player 2 Choose!</h2>
+    
+
+        
+
+        
+        
+    </body>
+</html>
+
